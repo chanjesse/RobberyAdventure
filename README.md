@@ -4,6 +4,7 @@ designed and written by Jesse Chan
 **DESIGN DESCRIPTION**
 
 Game: Bank Robbery
+
 GOAL: In this game, user will be playing as a robber attempting to steal money
 from a vault in a bank. User will start off in the Lobby and explore different
 rooms within the bank to find a key to in order to open the vault. There are a
@@ -25,7 +26,7 @@ The following is a hierarchy of the program:
 
 **GAME CLASS**
 
-Data Members
+DATA MEMBERS
 
 Room *currentLocation: pointer that points to the parent class Room
 
