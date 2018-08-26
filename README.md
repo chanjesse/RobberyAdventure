@@ -1,4 +1,5 @@
-Text Based Game project implementing inheritance, polymorphism and pointers designed and written by Jesse Chan
+Text Based Game project implementing inheritance, polymorphism and pointers 
+designed and written by Jesse Chan
 
 DESIGN DESCRIPTION 
 
@@ -24,22 +25,38 @@ GAME CLASS
 
 Data Members
 Room *currentLocation: pointer that points to the parent class Room
+
 Executive executive: object called executive from Executive derived class
+
 BreakRoom breakroom: object called breakroom from BreakRoom derived class
+
 Office office: object called office from Office derived class
+
 OfficeTwo office2: object called Office2 from OfficeTwo derived class
+
 Vault vault: object called vault from Vault derived class
+
 Lobby lobby: objected call lobby from Lobby derived class
+
 Std::list <std::string> bag: a list named bag that holds strings
+
 int bagLimit: the bag limit of the list called bag
+
 bool gameWin: a Boolean value that determines if the game status.
+
 int steps: the tracker/timer for the user
+
 bool file: used to see if user has already picked up the key
+
 bool book: used to see if user has already picked up the book
+
 bool pencil: used to see if user has already picked up pencil
+
 Functions
+
 Game()-links all the rooms, sets the current location to lobby, sets gameWin to
 false, steps to 0, file, book, and pencil to all true.
+
 Void play()-plays the game, prints out the menu based on the location of the
 user, displays an option to show bag and bag contents, and keeps the timer for
 the user.
@@ -53,8 +70,12 @@ Virtual method called:
 2) virtual Room* goLeft() {return NULL;};
 3) virtual Room* goUp() {return NULL;};
 4) virtual Room *goDown() {return NULL;};
+
 Room *North- pointer to the respective Room’s north
+
 Room *South- pointer to the respective Room’s south
+
 Room *East- pointer to the respective Room’s east
+
 Room *West- pointer to the respective Room’s west
 
