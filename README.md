@@ -21,6 +21,8 @@ alarm will go off and the cops will eventually arrive losing the game for the us
 The following is a hierarchy of the program:
 ![image](https://user-images.githubusercontent.com/13804972/44624032-a1ec9f80-a896-11e8-8eac-f055646ac49b.png)
 
+
+
 GAME CLASS
 
 Data Members
@@ -60,6 +62,8 @@ false, steps to 0, file, book, and pencil to all true.
 Void play()-plays the game, prints out the menu based on the location of the
 user, displays an option to show bag and bag contents, and keeps the timer for
 the user.
+
+
 
 ROOM CLASS
 
