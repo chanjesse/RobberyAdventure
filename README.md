@@ -26,6 +26,7 @@ The following is a hierarchy of the program:
 **GAME CLASS**
 
 Data Members
+
 Room *currentLocation: pointer that points to the parent class Room
 
 Executive executive: object called executive from Executive derived class
@@ -68,6 +69,7 @@ the user.
 **ROOM CLASS**
 
 DATA MEMBERS
+
 Pure virtual method called virtual char menu() = 0.
 Virtual method called:
 1) virtual Room* goRight() {return NULL;};
