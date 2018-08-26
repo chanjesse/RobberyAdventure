@@ -1,6 +1,7 @@
 Text Based Game project implementing inheritance, polymorphism and pointers designed and written by Jesse Chan
 
-DESIGN DESCRIPTION
+DESIGN DESCRIPTION 
+
 Game: Bank Robbery
 GOAL: In this game, user will be playing as a robber attempting to steal money
 from a vault in a bank. User will start off in the Lobby and explore different
@@ -20,6 +21,7 @@ The following is a hierarchy of the program:
 ![image](https://user-images.githubusercontent.com/13804972/44624032-a1ec9f80-a896-11e8-8eac-f055646ac49b.png)
 
 GAME CLASS
+
 Data Members
 Room *currentLocation: pointer that points to the parent class Room
 Executive executive: object called executive from Executive derived class
@@ -43,6 +45,7 @@ user, displays an option to show bag and bag contents, and keeps the timer for
 the user.
 
 ROOM CLASS
+
 DATA MEMBERS
 Pure virtual method called virtual char menu() = 0.
 Virtual method called:
